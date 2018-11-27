@@ -6,6 +6,8 @@ interface IVisitor {
     void visit(AgedBrie o);
     void visit(Elixir o);
     void visit(Sulfuras o);
+    void visit(BackstagePasses o);
+    void visit(ConjuredCake o);
 }
 
 class DebugVisitor implements IVisitor
@@ -23,6 +25,14 @@ class DebugVisitor implements IVisitor
     }
 
     public void visit(Sulfuras o)
+    {
+    }
+
+    public void visit(BackstagePasses o)
+    {
+    }
+
+    public void visit(ConjuredCake o)
     {
     }
 
