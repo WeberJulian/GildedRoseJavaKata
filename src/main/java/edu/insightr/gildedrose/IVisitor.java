@@ -5,6 +5,7 @@ interface IVisitor {
     void visit(Dexterity o);
     void visit(AgedBrie o);
     void visit(Elixir o);
+    void visit(Sulfuras o);
 }
 
 class DebugVisitor implements IVisitor
@@ -18,6 +19,10 @@ class DebugVisitor implements IVisitor
     }
 
     public void visit(Elixir o)
+    {
+    }
+
+    public void visit(Sulfuras o)
     {
     }
 
